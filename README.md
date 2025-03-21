@@ -152,3 +152,13 @@ However, if you pass in any `tools` that are also defined in your `Computer` met
 This repository provides example implementations with basic safety measures in place.
 
 We recommend reviewing the best practices outlined in our [guide](https://platform.openai.com/docs/guides/tools-computer-use#risks-and-safety), and making sure you understand the risks involved with using this tool.
+
+# Playwright Dependency Installation
+
+If you encounter missing dependencies while using Playwright, you can resolve them by running the following script:
+
+```bash
+bash scripts/install-playwright-deps.sh
+```
+
+This script will install all the required libraries for Playwright to function correctly.
